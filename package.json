@@ -1,15 +1,27 @@
 {
   "name": "tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "index.js",
+  
   "scripts": {
-    "build": "tailwindcss -i src/styles.css -o public/output.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaylenMcCarron/tailwind.git"
+  },
+  "keywords": [
+    "Daylen"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/DaylenMcCarron/tailwind/issues"
+  },
+  "homepage": "https://github.com/DaylenMcCarron/tailwind#readme",
+  "devDependencies": {
     "tailwindcss": "^3.2.4"
   }
 }
